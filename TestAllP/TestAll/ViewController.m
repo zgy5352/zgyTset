@@ -26,7 +26,9 @@
 #pragma mark - other
 -(void)_initView1{
     
-   
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor = [UIColor redColor];
+    [self.view addSubview:view];
     
 }
 
